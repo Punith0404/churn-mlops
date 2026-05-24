@@ -1,0 +1,53 @@
+
+data/
+
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Notebook files
+notebooks/
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Git
+.git/
+.gitignore
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Environment variables
+.env
+
+# Build files
+dist/
+build/
+
+# Docker
+Dockerfile.old
+docker-compose.old.yml
+

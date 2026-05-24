@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from schema import CustomerData
-from predict import predict_churn
+from app.schema import CustomerData
+from app.predict import predict_churn
 
 app = FastAPI()
 
